@@ -1,0 +1,88 @@
+.message-box {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    width: 95%;
+    max-width: 1000px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.message-box h2 {
+    color: #0d6efd;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto;
+    border: 2px solid #e3f2fd;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #f8f9fa;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+.text {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    background-color: #e3f2fd;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+}
+
+.inputs {
+    display: flex;
+    gap: 15px;
+}
+
+.inputs input[type="text"] {
+    flex: 1;
+    padding: 18px;
+    font-size: 1.25rem;
+    border: 2px solid #90caf9;
+    border-radius: 12px;
+}
+
+#search-btn {
+    background-color: #0d6efd;
+    color: white;
+    padding: 0 30px;
+    font-size: 1.25rem;
+    border-radius: 12px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background: #f8f9fa;
+}
+/* Thêm style cho câu trả lời chính */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Style cho header thông tin tham khảo */
+.alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
